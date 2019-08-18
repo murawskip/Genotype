@@ -1,9 +1,9 @@
 {
 Program:      Genotyp Projekt WAT.
 File:         uConfig
-Description:  Obiekt parametrów konfiguracyjnych systemu
+Description:  Obiekt parametrÃ³w konfiguracyjnych systemu
 Notes:
-2018-03-10    Piotr Murawski  Rozpoczêcie projektu
+2018-03-10    Piotr Murawski  RozpoczÃªcie projektu
 }
 
 unit uConfig;
@@ -45,9 +45,9 @@ uses System.SysUtils;
 constructor TConfig.Create;
 begin
   FDataBaseName:='ProjektWAT';
-  FDataBaseUserName:='pmurawski';
-  FDataBaseUserPassword:='Meriva0303';
-  FDatabaseServerAddress:='192.168.5.50';
+  FDataBaseUserName:='This is a place for a Database user name';
+  FDataBaseUserPassword:='This is a lace for a database user password';
+  FDatabaseServerAddress:='This is an IP address for a MsSQL server';
   FUserPassword:='';
   FUserName:='';
 end;
